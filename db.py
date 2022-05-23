@@ -17,7 +17,6 @@ cur.execute(
     """
     CREATE TABLE Personal
     (
-    ID INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
     NAME TEXT NOT NULL,
     SURNAME TEXT NOT NULL,
     ADDRESS TEXT NOT NULL,
